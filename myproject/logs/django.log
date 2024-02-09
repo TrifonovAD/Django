@@ -1,0 +1,149 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET /about/ HTTP/1.1" 200 8
+Not Found: /about2/
+"GET /about2/ HTTP/1.1" 404 2429
+D:\!Learning\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET /about/ HTTP/1.1" 200 27
+D:\!Learning\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 23
+D:\!Learning\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET /about/ HTTP/1.1" 200 27
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+Watching for file changes with StatReloader
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+Not Found: /about2/
+"GET /about2/ HTTP/1.1" 404 2429
+Not Found: /about2/
+"GET /about2/ HTTP/1.1" 404 2429
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\!Learning\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-06 21:19:30,890 autoreload 3616 13960 Watching for file changes with StatReloader
+ERROR 2024-02-06 21:19:36,052 views 3616 20532 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-02-06 21:19:36,054 basehttp 3616 20532 "GET /about/ HTTP/1.1" 200 27
+ERROR 2024-02-06 21:19:37,962 views 3616 20532 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-02-06 21:19:37,965 basehttp 3616 20532 "GET /about/ HTTP/1.1" 200 27
+ERROR 2024-02-06 21:19:38,856 views 3616 20532 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-02-06 21:19:38,858 basehttp 3616 20532 "GET /about/ HTTP/1.1" 200 27
+ERROR 2024-02-06 21:19:52,119 views 3616 21320 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\!Learning\Django\myproject\myapp\views.py", line 14, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-02-06 21:19:52,123 basehttp 3616 21320 "GET /about/ HTTP/1.1" 200 27
+WARNING 2024-02-06 21:19:52,226 log 3616 21320 Not Found: /favicon.ico
+WARNING 2024-02-06 21:19:52,226 basehttp 3616 21320 "GET /favicon.ico HTTP/1.1" 404 2441
+INFO 2024-02-06 21:20:13,512 views 3616 16404 Index page accessed
+INFO 2024-02-06 21:20:13,513 basehttp 3616 16404 "GET / HTTP/1.1" 200 13
+WARNING 2024-02-06 21:20:20,186 log 3616 11424 Not Found: /about2/
+WARNING 2024-02-06 21:20:20,188 basehttp 3616 11424 "GET /about2/ HTTP/1.1" 404 2429
